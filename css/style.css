@@ -104,6 +104,20 @@
     background: linear-gradient(to left, var(--black), transparent);
 }
 
+/* hover effect on image */
+
+#gallery div.col-md-4 {
+    overflow: hidden;
+}
+
+#gallery img {
+    transition: transform ease-in-out .3s;
+}
+
+#gallery img:hover {
+    transform: scale(1.2);
+}
+
 /* FOOTER */
 
 #main-footer {
